@@ -1,14 +1,60 @@
+<!-- index -->
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
-    <title>Onecall</title>
-    <%= csrf_meta_tags %>
+    <meta charset="utf-8">
 
+    <!--     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %> -->
 
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>1 Call Energy Solutions</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic%7cMontserrat:400,700%7cOpen+Sans:400,300' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google fonts -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/linecons.css" rel="stylesheet">
+    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">
+    <link href="assets/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="assets/flexslider/flexslider.css" rel="stylesheet">
+    <link href="assets/css/global.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/skin.css" rel="stylesheet">    
+  </head>
+  
   <body>
+    
+   
+    
+    <!-- ============================================================= MAIN ============================================================= -->
+    
     <%= yield %>
+    
+    <!-- ============================================================= MAIN : END ============================================================= -->
+    
+    
+   
+    
+    <!-- JavaScripts placed at the end of the document so the pages load faster -->
+   <script src="assets/js/modernizr.custom.js"></script> 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery-1.12.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>    
+    <script src="assets/js/jquery.circliful.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="assets/js/gmap.js"></script>
+    <script src="assets/js/snap.svg-min.js"></script>
+    <script src="assets/owl-carousel/owl.carousel.js"></script>
+    <script src="assets/flexslider/jquery.flexslider.js"></script>
+    <script src="assets/js/site.js"></script>    <!-- For demo purposes – can be removed on production : End -->
   </body>
 </html>
