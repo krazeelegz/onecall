@@ -26,6 +26,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'rails_serve_static_assets', '~> 0.0.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -47,7 +48,7 @@ group :development do
   gem 'capistrano', '~> 3.5'
   gem 'capistrano-rails', '~> 1.1', '>= 1.1.7'
   gem 'capistrano-rvm', '~> 0.1.2'
-  gem 'rails_serve_static_assets', '~> 0.0.5'
+
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
